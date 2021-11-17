@@ -1,0 +1,12 @@
+Enter subject A: 
+Math
+Enter mark subject A: 
+70
+Enter subject B: 
+Physics
+Enter mark subject B: 
+35
+Fail subjectB
+subjectA has higher mark than subjectB
+The average is: 52.50
+Gred C
