@@ -1,0 +1,36 @@
+package lesson;
+
+public class Boolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int day = 15;
+		int month = 10;
+		int year = 1582;
+
+		System.out.println((year <= 1582) && (month <= 10) && (day <= 15));
+		
+		double d1 = 2.2 + 4.4;
+		double d2 = 6.6;
+		System.out.println(d1 == d2);
+		int d3 = 2 + 4;
+		int d4 = 6;
+		System.out.println(d3 == d4);
+		String s1 = "HAN";
+		String s2 = "AN";
+		System.out.println(s1 == s2);
+		
+		double y = 15.0;
+		double x = 25.0;
+		double z = 35.0;
+		if (y != x)
+			System.out.println("Result: y not equal x");
+		if (z == y)
+			System.out.println("Result: y not equal z");
+		if (y < x)
+			System.out.println("value x is " + x + "value y is " + y);
+		    System.out.println("Result: y less than x");
+	}
+
+}
