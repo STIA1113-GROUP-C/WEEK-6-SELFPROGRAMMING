@@ -1,0 +1,54 @@
+package lesson;
+
+import java.util.Scanner;
+public class IfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter subject A: ");
+		String subjectA = scan.nextLine();
+		System.out.println("Enter mark subject A: ");
+		int markA = scan.nextInt();
+		
+		System.out.println("Enter subject B: ");
+		String subjectB = scan.next();
+		System.out.println("Enter mark subject B: ");
+		int markB = scan.nextInt();
+		
+		if ((markA>50) && (markB>50))
+		{ System.out.println("Pass two subject");
+		}
+		else if ((markA<50) && (markB>50))
+		{ System.out.println("Fail subjectA");
+		}
+		else if ((markA>50) && (markB<50))
+		{System.out.println("Fail subjectB");
+		}
+		else
+		{System.out.println("Fail two subject");
+		}
+		if (markA > markB)
+		{System.out.println("subjectA has higher mark than subjectB");
+		}
+		else
+		{System.out.println("subjectB has higher mark than subjectA");
+		}
+		double average = (double)(markA + markB)/2;
+		System.out.printf("The average is: %.2f", average);
+		System.out.println();
+		if ((average>=80) && (average<=100))
+		{System.out.println("Gred A");
+		}
+		else if ((average>=60) && (average<=79))
+		{System.out.println("Gred B");
+		}
+		else if ((average>=50) && (average<=59))
+		{System.out.println("Gred C");
+		}
+		else
+		{System.out.println("Fail");	
+		}
+		}
+		}
